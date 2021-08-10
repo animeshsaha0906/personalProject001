@@ -1,0 +1,140 @@
+html{
+    scroll-behavior:smooth;
+}
+body{
+    background-image: url("https://wallpaperaccess.com/full/1567666.png");
+    background-size:1700px 800px;
+    height: 100px;
+    background-repeat: no-repeat;
+    margin:0px;
+}
+.material-icons{
+    color:white;
+    transition-duration: 0.5s;
+}
+.material-icons:hover{
+    color:green;
+}
+h1{
+    margin:auto;
+    color:grey;
+    transition-property: color;
+    transition-duration: 1s;
+    cursor: pointer;
+    margin-left: 90px;
+    margin-top:10px;
+    font-size: 200%;
+}
+h1:hover{
+    color:white;
+}
+li{
+    box-sizing: border-box;
+    display: inline;
+    position:relative;
+    left:1000px;
+    font-size: large;
+    font-family: 'Courier New';
+    margin-left:10px;
+    
+}
+li > a , p >a:first-child{ 
+    color:yellow;
+    text-decoration: none;
+    opacity:0.8;
+    transition-duration: 1s;
+}
+li > a:hover , p>a:first-child:hover{
+    opacity:1;
+    font-size:larger;
+}
+#firstDiv{
+    height:400px;
+}
+#bodyLine{
+    color:orange;
+    font-family: sans-serif;
+    margin-top:350px;
+    margin-left: 90px;
+}
+#button{
+    border:1px solid orange;
+    width:130px;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    float:right;
+    margin-right:110px;
+    margin-top:-50px;
+    font-size: 120%;
+    font-family: Cambria;
+    
+}
+#secondDiv{
+    
+    width: fit-content;
+    height: 250px;
+    margin-top:-30px;
+}
+#aboutTitle{
+    float:left;
+    color:orangered;
+    opacity:0.8;
+    border-bottom: 1px solid red;
+    width:fit-content;
+    font-size: 200%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20%;
+    
+}
+#aboutTitle:hover{
+    opacity: 1;
+    color:green;
+}
+#aboutDetails{
+    float:left;
+    clear:both;
+    width:50%;
+    margin-left:20px;
+    text-align: center;
+    font-family: sans-serif;
+    border-right: 1px solid orange;
+    border-width: 3px;
+    height: 150px;
+    padding-right: 30px;
+
+}
+#aboutMyPic{
+    float:right;
+    margin-right: 20%;
+
+}
+#thirdDiv{
+    font-size: larger;
+    text-align: center;
+    border:1px solid lightgrey;
+    width:900px;
+    margin:auto;
+    margin-top:50px;
+    background-color:#EAEBEB;
+    background-size: cover;
+}
+.contactLink{
+    color:green;
+    opacity: 0.7;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.contactLink:hover{
+    opacity: 1;
+    
+}
+contact{
+    font-size: larger;
+    font-family: 'Segoe UI';
+    
+}
