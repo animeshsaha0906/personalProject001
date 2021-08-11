@@ -1,5 +1,6 @@
 html{
     scroll-behavior:smooth;
+    box-sizing: border-box;
 }
 body{
     background-image: url("https://wallpaperaccess.com/full/1567666.png");
@@ -28,6 +29,7 @@ h1{
 h1:hover{
     color:white;
 }
+
 li{
     box-sizing: border-box;
     display: inline;
@@ -94,6 +96,7 @@ li > a:hover , p>a:first-child:hover{
 #aboutTitle:hover{
     opacity: 1;
     color:green;
+    cursor: pointer;
 }
 #aboutDetails{
     float:left;
@@ -136,5 +139,60 @@ li > a:hover , p>a:first-child:hover{
 contact{
     font-size: larger;
     font-family: 'Segoe UI';
-    
+
+}
+
+/*for mobile devices*/
+@media only screen and (max-width:376px)
+{
+    body{
+        background-size:545px 700px;
+    }
+    li{
+        margin-top:40px;
+        left: 0px;
+        text-align: center;
+        font-size: 130%;
+        display: block;
+
+    }
+
+    #bodyLine{
+        font-size:40px;
+        color:red;
+        margin-top: 50px;
+        margin-left: 140px;
+        font-size:medium;
+        
+    }
+    #button{
+        margin-right: 90px;
+        margin-top:40px;
+        width:150px;
+        height: 40px;
+    }
+    #aboutTitle{
+        margin-top:-90px;
+        margin-left:140px;
+    }
+    #aboutDetails{
+        border:0px;
+        width:100%;
+        margin-left: 30px;
+    }
+    #aboutMyPic{
+        content:"";
+        clear:both;
+        display: table;
+        margin-top:100px;
+        width:20px;
+        height:20px;
+    }
+    #thirdDiv{
+        clear:both;
+        margin-top:300px;
+        width:auto;
+        margin:auto;
+        margin-left:50px;
+    }
 }
