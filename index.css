@@ -29,7 +29,9 @@ h1{
 h1:hover{
     color:white;
 }
-
+ul{
+    position: fixed;
+}
 li{
     box-sizing: border-box;
     display: inline;
@@ -38,7 +40,6 @@ li{
     font-size: large;
     font-family: 'Courier New';
     margin-left:10px;
-    
 }
 li > a , p >a:first-child{ 
     color:yellow;
@@ -61,8 +62,8 @@ li > a:hover , p>a:first-child:hover{
 }
 #button{
     border:1px solid orange;
-    width:130px;
-    height: 35px;
+    width:150px;
+    height: 45px;
     border-radius: 10px;
     text-align: center;
     color:white;
@@ -70,17 +71,17 @@ li > a:hover , p>a:first-child:hover{
     align-items: center;
     justify-content: center;
     float:right;
-    margin-right:110px;
+    margin-right:190px;
     margin-top:-50px;
-    font-size: 120%;
+    font-size: 150%;
     font-family: Cambria;
     
 }
 #secondDiv{
     
     width: fit-content;
-    height: 250px;
-    margin-top:-30px;
+    height: 450px;
+    margin-top:140px;
 }
 #aboutTitle{
     float:left;
@@ -114,6 +115,15 @@ li > a:hover , p>a:first-child:hover{
 #aboutMyPic{
     float:right;
     margin-right: 20%;
+    margin-bottom: 60px;
+    box-shadow: 7px 7px 5px grey;
+    transition-duration: 0.6s;
+
+}
+#aboutMyPic:hover{
+    box-shadow: 14px 14px 8px grey;
+
+
 
 }
 #thirdDiv{
@@ -124,7 +134,8 @@ li > a:hover , p>a:first-child:hover{
     margin:auto;
     margin-top:50px;
     background-color:#EAEBEB;
-    background-size: cover;
+    background-size:cover;
+    
 }
 .contactLink{
     color:green;
@@ -148,9 +159,12 @@ contact{
     body{
         background-size:545px 700px;
     }
+    ul{
+        position:relative;
+    }
     li{
         margin-top:40px;
-        left: 0px;
+        left:auto;
         text-align: center;
         font-size: 130%;
         display: block;
@@ -173,11 +187,12 @@ contact{
     }
     #aboutTitle{
         margin-top:-90px;
-        margin-left:140px;
+        margin-left:120px;
     }
     #aboutDetails{
         border:0px;
-        width:100%;
+        width:auto;
+        height:auto;
         margin-left: 30px;
     }
     #aboutMyPic{
@@ -193,6 +208,6 @@ contact{
         margin-top:300px;
         width:auto;
         margin:auto;
-        margin-left:50px;
+        height: auto;
     }
 }
