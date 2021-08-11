@@ -58,7 +58,7 @@ li > a:hover , p>a:first-child:hover{
     color:orange;
     font-family: sans-serif;
     margin-top:350px;
-    margin-left: 90px;
+    margin-left: 0px;
 }
 #button{
     border:1px solid orange;
@@ -80,7 +80,7 @@ li > a:hover , p>a:first-child:hover{
 #secondDiv{
     
     width: fit-content;
-    height: 450px;
+    height: 350px;
     margin-top:140px;
 }
 #aboutTitle{
@@ -168,6 +168,7 @@ contact{
         text-align: center;
         font-size: 130%;
         display: block;
+        margin-right: 50px;
 
     }
 
@@ -175,31 +176,36 @@ contact{
         font-size:40px;
         color:red;
         margin-top: 50px;
-        margin-left: 140px;
+        text-align: center;
         font-size:medium;
         
     }
     #button{
-        margin-right: 90px;
+        margin-right: 130px;
         margin-top:40px;
         width:150px;
         height: 40px;
     }
+    #secondDiv{
+        height:315px;
+    }
     #aboutTitle{
-        margin-top:-90px;
-        margin-left:120px;
+        float:none;
+        text-align: center;
+        margin-left:130px;
     }
     #aboutDetails{
         border:0px;
         width:auto;
         height:auto;
-        margin-left: 30px;
+        margin-left: 10px;
     }
     #aboutMyPic{
         content:"";
         clear:both;
         display: table;
         margin-top:100px;
+        margin-right: 25%;
         width:20px;
         height:20px;
     }
