@@ -89,9 +89,10 @@ li > a:hover , p>a:first-child:hover{
     opacity:0.8;
     border-bottom: 1px solid red;
     width:fit-content;
+    margin-left: 20%;
     font-size: 200%;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 20%;
+    
     
 }
 #aboutTitle:hover{
@@ -103,7 +104,7 @@ li > a:hover , p>a:first-child:hover{
     float:left;
     clear:both;
     width:50%;
-    margin-left:20px;
+    margin-left:15px;
     text-align: center;
     font-family: sans-serif;
     border-right: 1px solid orange;
@@ -132,6 +133,7 @@ li > a:hover , p>a:first-child:hover{
     justify-content: center;
     height:350px;
     align-items: center;
+    margin-bottom: 60px;
 }
 .flex-items{
     justify-content: center;
@@ -158,11 +160,11 @@ div >a{
 #fourthDiv{
     font-size: larger;
     text-align: center;
-    border:1px solid lightgrey;
-    width:900px;
+    border-top:2px solid lightgrey;
+    padding-top:40px;
+    width:400px;
     margin:auto;
     margin-top:50px;
-    background-color:#EAEBEB;
     background-size:cover;
     
 }
@@ -187,6 +189,8 @@ contact{
 {
     body{
         background-size:auto;
+        overflow-x: hidden;
+        width:100%;
     }
     ul{
         position:relative;
@@ -221,7 +225,8 @@ contact{
     #aboutTitle{
         float:none;
         text-align: center;
-        margin-left:130px;
+        margin-left:110px;
+
     }
     #aboutDetails{
         border:0px;
@@ -252,9 +257,9 @@ contact{
     }
     #fourthDiv{
         clear:both;
-        margin-top:300px;
-        width:auto;
-        margin:auto;
+        margin-top:250px;
+        width:200px;
         height: auto;
+        
     }
 }
